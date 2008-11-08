@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{+${1:control}}$0</string>
+	<string>[=&gt;${1:routing}, ${2:action}]$0</string>
 	<key>name</key>
-	<string>Template Control</string>
+	<string>Link To</string>
 	<key>scope</key>
 	<string>text.html.sandstone</string>
 	<key>tabTrigger</key>
-	<string>+</string>
+	<string>#</string>
 	<key>uuid</key>
-	<string>1ED03693-A241-4B20-923F-1A421E00E193</string>
+	<string>DA2E10E5-41E6-4249-A6D1-DC337436E008</string>
 </dict>
 </plist>

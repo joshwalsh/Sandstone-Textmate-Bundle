@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Template Include Conditional</string>
 	<key>scope</key>
-	<string>sandstone.template</string>
+	<string>text.html.sandstone</string>
 	<key>tabTrigger</key>
 	<string>!?</string>
 	<key>uuid</key>

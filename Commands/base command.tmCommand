@@ -10,14 +10,13 @@
 
 require($_ENV['TM_BUNDLE_SUPPORT'] . '/sandstone.php');
 
-MoveCursor(10,10);
 ?&gt;</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>name</key>
 	<string>base command</string>
 	<key>output</key>
-	<string>discard</string>
+	<string>showAsHTML</string>
 	<key>uuid</key>
 	<string>282DEC57-D47A-4B33-A23B-95A727F6F409</string>
 </dict>
