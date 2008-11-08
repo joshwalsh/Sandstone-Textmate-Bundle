@@ -6,10 +6,7 @@ require('lib/web.php');
 
 function RescanProject()
 {
-	`osascript &>/dev/null \
-   		-e 'tell app "SystemUIServer" to activate'; \
- 	osascript &>/dev/null \
-   		-e 'tell app "TextMate" to activate' &`;
+	`rescan_project`;
 }
 
 function ENV($Variable)

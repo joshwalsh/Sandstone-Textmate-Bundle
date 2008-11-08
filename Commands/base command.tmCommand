@@ -10,6 +10,7 @@
 
 require($_ENV['TM_BUNDLE_SUPPORT'] . '/sandstone.php');
 
+MoveCursor(10,10);
 ?&gt;</string>
 	<key>input</key>
 	<string>selection</string>
