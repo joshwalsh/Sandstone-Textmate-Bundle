@@ -1,14 +1,7 @@
 <?php
 
-function Using($Library)
-{
-	switch (strtolower($Library))
-	{
-		case 'file':
-			require('lib/file.php');
-			break;
-	}
-}
+require('lib/file.php');
+require('lib/web.php');
 
 function RescanProject()
 {

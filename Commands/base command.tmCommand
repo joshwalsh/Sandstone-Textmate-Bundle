@@ -9,7 +9,6 @@
 &lt;?php
 
 require($_ENV['TM_BUNDLE_SUPPORT'] . '/sandstone.php');
-Using('file');
 
 ?&gt;</string>
 	<key>input</key>

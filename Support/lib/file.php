@@ -20,4 +20,18 @@ function CreateFile($NewFile)
 	}	
 }
 
+function OpenFile($Filespec, $LineNumber = 0, $ColumnNumber = 0)
+{
+	$LineNumber++;
+	$ColumnNumber++;
+
+	$path = $_ENV['TM_PROJECT_DIRECTORY'] . "/" . $Filespec;
+	
+	if (file_exists($path))
+	{
+		$url = "txmt://open?url=file://{$path}&line={$LineNumber}&column={$ColumnNumber}";
+		OpenURL($url);
+	}
+}
+
 ?>
