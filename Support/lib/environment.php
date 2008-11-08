@@ -22,4 +22,9 @@ function ProjectDirectory()
 	return ENV('project_directory');
 }
 
+function CurrentFile()
+{
+	return ENV('filepath');
+}
+
 ?>

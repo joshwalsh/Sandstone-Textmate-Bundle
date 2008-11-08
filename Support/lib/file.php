@@ -31,4 +31,10 @@ function OpenFile($Filespec, $LineNumber = 0, $ColumnNumber = 0)
 	}
 }
 
+function MoveCursor($LineNumber = 0, $ColumnNumber = 0)
+{
+	$url = "txmt://open?url=file://" . CurrentFile() . "&line={$LineNumber}&column={$ColumnNumber}";
+	OpenURL($url);
+}
+
 ?>
