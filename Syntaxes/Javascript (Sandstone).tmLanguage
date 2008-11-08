@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>js.template</string>
+		<string>js.layout</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>/\*\*|\{\s*$</string>
+	<key>foldingStopMarker</key>
+	<string>\*\*/|^\s*\}</string>
+	<key>name</key>
+	<string>Javascript (Sandstone)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>{#</string>
+			<key>end</key>
+			<string>}</string>
+			<key>name</key>
+			<string>comment.block.sandstone</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>{\$</string>
+			<key>end</key>
+			<string>}</string>
+			<key>name</key>
+			<string>variable.other.template</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>{\+</string>
+			<key>end</key>
+			<string>}</string>
+			<key>name</key>
+			<string>variable.other.form</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>{!</string>
+			<key>end</key>
+			<string>}</string>
+			<key>name</key>
+			<string>entity.name.function.templateinclude</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>{Content}</string>
+			<key>name</key>
+			<string>entity.name.function.content</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.js</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.js.sandstone</string>
+	<key>uuid</key>
+	<string>682FA7FE-07ED-4B31-A432-D96B4BDB0DD3</string>
+</dict>
+</plist>

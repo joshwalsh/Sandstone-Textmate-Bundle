@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>AddValidator("GenericValidator","IsNumeric");${0}</string>
+	<key>name</key>
+	<string>Numeric Validator</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>+valid</string>
+	<key>uuid</key>
+	<string>FBC96B57-38F2-4AF4-B8C9-83B0B8761267</string>
+</dict>
+</plist>

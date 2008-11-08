@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>public function $1Callback(\$CurrentElement, \$Template)
+{
+	$0
+}
+</string>
+	<key>name</key>
+	<string>Repeater Callback</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>callback</string>
+	<key>uuid</key>
+	<string>4706C933-4BB3-4200-BFD8-C36E7620B3BD</string>
+</dict>
+</plist>

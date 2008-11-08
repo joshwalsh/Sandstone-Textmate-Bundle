@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>protected function LoadControlData(\$EventParameters)
+{
+	$0
+}</string>
+	<key>name</key>
+	<string>Load Control Data</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>bca</string>
+	<key>uuid</key>
+	<string>BA151D35-3A23-448B-92B9-3D55A16B37D1</string>
+</dict>
+</plist>

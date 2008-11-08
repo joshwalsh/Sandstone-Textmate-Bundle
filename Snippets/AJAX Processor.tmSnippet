@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>public function AJAX_${1:FunctionName}(\$Processor)
+{
+	\$template = \$Processor-&gt;Template;${0}
+}</string>
+	<key>name</key>
+	<string>AJAX Processor</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>proc</string>
+	<key>uuid</key>
+	<string>2E23A570-DB85-4CFB-9F78-C81D36F6A987</string>
+</dict>
+</plist>

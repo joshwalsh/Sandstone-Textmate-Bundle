@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/*** ${1:Divider Label} ***/${0}</string>
+	<key>name</key>
+	<string>Page Divider</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>div</string>
+	<key>uuid</key>
+	<string>C6C43467-14CE-4482-8557-87ABA0426466</string>
+</dict>
+</plist>

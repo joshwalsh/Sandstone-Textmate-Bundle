@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>{!${1:file.htm.template}}$0</string>
+	<key>name</key>
+	<string>Template Include</string>
+	<key>scope</key>
+	<string>sandstone.template</string>
+	<key>tabTrigger</key>
+	<string>!</string>
+	<key>uuid</key>
+	<string>C87FF4DD-A112-4AB5-8260-16CA0C4A8159</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>protected function SetupControlsNoData(\$EventParameters)
+{
+	$0
+}</string>
+	<key>name</key>
+	<string>Setup Controls No Data</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>bca</string>
+	<key>uuid</key>
+	<string>30662F43-1FBB-46E7-9035-2BBC6A7ACB8C</string>
+</dict>
+</plist>

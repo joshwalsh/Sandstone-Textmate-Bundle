@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>public function ${1:FormName}_Processor(\$EventParameters)
+{
+	${0}
+}
+</string>
+	<key>name</key>
+	<string>Form Processor</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>proc</string>
+	<key>uuid</key>
+	<string>BFA4B1AB-912C-420F-A381-F49F377EC767</string>
+</dict>
+</plist>

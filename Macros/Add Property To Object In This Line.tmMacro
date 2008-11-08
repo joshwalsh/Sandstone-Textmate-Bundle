@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>moveToBeginningOfLine:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>findNext</string>
+				<key>findInProjectIgnoreCase</key>
+				<true/>
+				<key>findString</key>
+				<string>-&gt;(\w*) </string>
+				<key>ignoreCase</key>
+				<true/>
+				<key>regularExpression</key>
+				<true/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveLeft:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveRight:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveRight:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveToBeginningOfLineAndModifySelection:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>copy:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveToEndOfLine:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>insertNewline:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>moveToBeginningOfLine:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>paste:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>@</string>
+	<key>name</key>
+	<string>Add Property To Object In This Line</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>uuid</key>
+	<string>75E0B1C0-552D-4C26-B409-ABEDF116DFA0</string>
+</dict>
+</plist>

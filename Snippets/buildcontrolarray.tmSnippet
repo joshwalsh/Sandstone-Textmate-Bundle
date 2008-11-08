@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>protected function BuildControlArray(\$EventParameters)
+{
+	$0
+
+	parent::BuildControlArray(\$EventParameters);
+}
+
+
+
+</string>
+	<key>name</key>
+	<string>Build Control Array</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>bca</string>
+	<key>uuid</key>
+	<string>4712A5DA-4453-436C-AF34-19BE4E08953C</string>
+</dict>
+</plist>

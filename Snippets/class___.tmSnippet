@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:ClassName}${2: extends ${3:AnotherClass}}
+{
+	$0
+}</string>
+	<key>name</key>
+	<string>class...</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>class</string>
+	<key>uuid</key>
+	<string>FD5E4DE4-FF5B-4792-909B-24ABDCF2DF7D</string>
+</dict>
+</plist>

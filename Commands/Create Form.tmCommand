@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/php
+&lt;?php
+
+$fstat = fstat(STDIN);
+$formname = fread(STDIN,$fstat['size']);
+$formname = strtolower($formname);
+
+?&gt;\$this-&gt;${1:&lt;?php echo ucfirst($formname); ?&gt;}Form = new PageForm(\$EventParameters);${0}</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@C</string>
+	<key>name</key>
+	<string>Create Form</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>uuid</key>
+	<string>826015FE-4435-44FF-BE5B-6E5587532CFF</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Namespace::Using("${1:namespace.string}");$0</string>
+	<key>name</key>
+	<string>Namespace</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>using</string>
+	<key>uuid</key>
+	<string>2BEF68C3-3750-4EEC-B1A4-FDFE89D4C910</string>
+</dict>
+</plist>

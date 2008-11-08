@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$EventParameters${0}</string>
+	<key>name</key>
+	<string>EventParameters</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>ep</string>
+	<key>uuid</key>
+	<string>E4B6ECB9-1641-4D12-A2D4-F69CF17123A7</string>
+</dict>
+</plist>

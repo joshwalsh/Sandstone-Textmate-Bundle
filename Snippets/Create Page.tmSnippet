@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:${TM_FILENAME/(.*?)\.page\.php/\u$1/}}Page extends ${2:BasePage}
+{
+	$0
+}</string>
+	<key>name</key>
+	<string>Create Page</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>page</string>
+	<key>uuid</key>
+	<string>F5611757-EFBE-451C-AD0E-DEE0A8279AF3</string>
+</dict>
+</plist>

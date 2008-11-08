@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>while (${1:$a &lt;= 10}) 
+{
+	${0:# code...}
+}</string>
+	<key>name</key>
+	<string>while...</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>while</string>
+	<key>uuid</key>
+	<string>7EB307CF-CFF1-41C5-BD7B-541F1C85D651</string>
+</dict>
+</plist>

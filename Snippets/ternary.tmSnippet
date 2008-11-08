@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>(${1:condition}) ? ${3:trueValue} : ${4:falseValue}</string>
+	<key>name</key>
+	<string>ternary</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>?:</string>
+	<key>uuid</key>
+	<string>9707FA03-2C54-4879-A8DC-8065451E60F2</string>
+</dict>
+</plist>

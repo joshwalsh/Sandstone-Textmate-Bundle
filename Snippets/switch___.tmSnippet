@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>switch (${1:variable}) 
+{
+	case '${2:value}':
+		${3:# code...}
+		break;
+	$0
+	default:
+		${4:# code...}
+		break;
+}</string>
+	<key>name</key>
+	<string>switch...</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>switch</string>
+	<key>uuid</key>
+	<string>AB236B0F-2052-4839-824C-E466CD86D83C</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;${1:RepeaterControl} = new RepeaterControl();
+\$this-&gt;${1:RepeaterControl}-&gt;Data = ${2:Dataset};
+\$this-&gt;${1:RepeaterControl}-&gt;SetCallback(\$this, "${1:RepeaterControl}Callback");$0</string>
+	<key>name</key>
+	<string>Create Repeater</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>repeater</string>
+	<key>uuid</key>
+	<string>E3C6AF3D-4EBE-46AC-A2C6-23DA3D8C98FC</string>
+</dict>
+</plist>

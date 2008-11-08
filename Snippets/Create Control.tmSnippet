@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;${1:FormName}-&gt;${2:ControlName} = new ${3:ControlType}Control();
+\$this-&gt;${1:FormName}-&gt;${2:ControlName}-&gt;LabelText = "${4:ControlName}";
+$0</string>
+	<key>name</key>
+	<string>Create Control</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>con</string>
+	<key>uuid</key>
+	<string>053D9A3C-B137-437D-88C2-EA38B63B014A</string>
+</dict>
+</plist>
