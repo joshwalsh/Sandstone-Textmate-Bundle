@@ -2,7 +2,7 @@
 
 function MakeDirectory($NewFolder)
 {
-	$path = $_ENV['TM_DIRECTORY'] . "/" . $NewFolder;
+	$path = ENV('directory') . "/" . $NewFolder;
 	
 	if(!file_exists($path))
 	{
@@ -12,7 +12,7 @@ function MakeDirectory($NewFolder)
 
 function CreateFile($NewFile)
 {
-	$path = $_ENV['TM_DIRECTORY'] . "/" . $NewFile;
+	$path = ENV('directory') . "/" . $NewFile;
 	
 	if(!file_exists($path))
 	{
@@ -22,10 +22,7 @@ function CreateFile($NewFile)
 
 function OpenFile($Filespec, $LineNumber = 0, $ColumnNumber = 0)
 {
-	$LineNumber++;
-	$ColumnNumber++;
-
-	$path = $_ENV['TM_PROJECT_DIRECTORY'] . "/" . $Filespec;
+	$path = ProjectDirectory() . "/" . $Filespec;
 	
 	if (file_exists($path))
 	{
