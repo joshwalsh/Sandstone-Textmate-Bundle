@@ -19,5 +19,4 @@ function ENV($Variable)
 	return $_ENV['TM_' . $Variable];
 }
 
-
 ?>
