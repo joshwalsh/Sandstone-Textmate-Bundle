@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;${1:FormName} = new PageForm(\$EventParameters);
+\$this-&gt;${1:FormName}-&gt;EntityObject = ${2:EntityObject};
+\$this-&gt;${1:FormName}-&gt;EntitySaveSuccessNotification = "${3:School Created Successfully}";
+\$this-&gt;${1:FormName}-&gt;EntitySaveFailureNotification = "${4:School could not be created!}";
+\$this-&gt;${1:FormName}-&gt;EntitySaveSuccessRoutingAction = '${5:view}';$0</string>
+	<key>name</key>
+	<string>Create CRUD Form</string>
+	<key>scope</key>
+	<string>source.php.sandstone</string>
+	<key>tabTrigger</key>
+	<string>form</string>
+	<key>uuid</key>
+	<string>47785733-37E3-469F-967C-31748946034F</string>
+</dict>
+</plist>

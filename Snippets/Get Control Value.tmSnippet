@@ -3,19 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>protected function BuildControlArray(\$EventParameters)
-{
-	$0
-
-	parent::BuildControlArray(\$EventParameters);
-}</string>
+	<string>\$this-&gt;${1:FormName}-&gt;${2:ControlName}-&gt;Value$0</string>
 	<key>name</key>
-	<string>Build Control Array</string>
+	<string>Get Control Value</string>
 	<key>scope</key>
 	<string>source.php.sandstone</string>
 	<key>tabTrigger</key>
-	<string>bca</string>
+	<string>conval</string>
 	<key>uuid</key>
-	<string>4712A5DA-4453-436C-AF34-19BE4E08953C</string>
+	<string>9DBEF63A-7FE8-4A00-9E12-5D1021A69509</string>
 </dict>
 </plist>

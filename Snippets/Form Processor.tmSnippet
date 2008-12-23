@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>public function ${1:FormName}_Processor(\$EventParameters)
+	<string>public function ${1:FormName}_$2Processor(\$EventParameters)
 {
 	${0}
 }
