@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>public function ${1:HTM}_Processor(\$EventParameters)
+	<string>protected function ${1:HTM}_Processor(\$EventParameters)
 {
 	${0}
 }
