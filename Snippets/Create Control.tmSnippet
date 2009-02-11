@@ -11,7 +11,7 @@
 	<key>scope</key>
 	<string>source.php.sandstone</string>
 	<key>tabTrigger</key>
-	<string>con</string>
+	<string>cont</string>
 	<key>uuid</key>
 	<string>053D9A3C-B137-437D-88C2-EA38B63B014A</string>
 </dict>
